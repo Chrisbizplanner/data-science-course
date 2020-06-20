@@ -1,0 +1,18 @@
+title: Data Science
+description: >-
+  Using  scientific methods, processes, algorithms and systems to extract
+  knowledge and insights from many structural and unstructured data.
+template:
+  repo: data-science-template
+  name: data-science
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
